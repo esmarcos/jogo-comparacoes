@@ -62,9 +62,6 @@ public class Tela {
 		System.out.println("Jogo | Pontos | RecMax | RecMin");
 		for ( Jogo jogo : jogos) {
 			System.out.println("" + jogo.getNumero() +  "        " + jogo.getPontos() + "         " + jogo.getRecordMaximo() + "         " + jogo.getRecordMinimo());
-			
-	
-			
 		}
 	}
 }
